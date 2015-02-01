@@ -6,8 +6,7 @@ layout: default
   {% for post in site.posts %}
     <article class="post">    
       
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <span>[{{ post.date | date: "%F" }}]</span>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>[{{ post.date | date: "%F" }}]
 
       <div class="entry">
         {{ post.content | truncatewords:40}}
