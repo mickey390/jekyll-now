@@ -14,3 +14,6 @@ title: Jekyll-Nowを始める
 
 * faviconの設定  
 <https://github.com/mickey390/mickey390.github.io/blob/master/_layouts/default.html>  
+
+* ローカルでの開発方法  
+<https://github.com/mickey390/mickey390.github.io#local-development>
