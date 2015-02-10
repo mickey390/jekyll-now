@@ -2,17 +2,31 @@
 layout: default
 ---
 
+
+<h1>一覧</h1>
+<hr>
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      [{{ post.date | date: "%F" }}]
-      <div class="entry">
-        {{ post.content | truncatewords:5}}
-      </div>
+    <!--<article class="post">-->
+      <!--<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>-->
+      <!--[{{ post.date | date: "%F" }}]-->
+      <!--<div class="entry">-->
+        <!--{{ post.content | truncatewords:5}}-->
+      <!--</div>-->
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      <br>
+      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
+      <!--<br>-->
+    <!--</article>-->
+    <article class="post">
+        [{{ post.date | date: "%F" }}]
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    
+    <!--<div class="entry">-->
+    <!--{{ post.content | truncatewords:5}}-->
+    <!--</div>-->
+
+    <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
+    <br>
     </article>
   {% endfor %}
 </div>
