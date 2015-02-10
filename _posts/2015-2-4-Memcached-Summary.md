@@ -58,4 +58,14 @@ statやslabの情報を見やすくするスクリプト
 
 ## ◎起動オプション
 
+- CASの無効化
+ - 「-C            Disable use of CAS」
+ - 有効化すると、トランザクション風の挙動が出来る。
+ - 無効化すると、1itemにつき 8byteメモリ容量を削減できる。
+
+- tcp_backlog
+ - 「-b            Set the backlog queue limit (default: 1024)」
+ - net.core.somaxconnと依存関係にあるので、変更が効いていないようであればこれをチューニングする。  
+ - 参考 : <http://d.hatena.ne.jp/tetsuyai/20111220/1324466655>
+
 （編集中）
