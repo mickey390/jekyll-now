@@ -17,3 +17,6 @@ title: Jekyll-Nowを始める
 
 * ローカルでの開発方法  
 <https://github.com/mickey390/mickey390.github.io#local-development>
+ - 使い方
+ - `% jekyll serve`
+ - <http://localhost:4000/>
