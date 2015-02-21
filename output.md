@@ -4,6 +4,8 @@ title: Output
 permalink: /output/
 ---
 
+## footballer-instagram
++ URL:<http://footballer-instagram.herokuapp.com/>
 
 ## サッカーフォーメーション作成
 + URL:<http://mickey390.github.io/football_formation/>
