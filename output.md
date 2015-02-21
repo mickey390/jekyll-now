@@ -6,6 +6,13 @@ permalink: /output/
 
 ## footballer-instagram
 + URL:<http://footballer-instagram.herokuapp.com/>
++ 機能 
++ 使ったもの
+   + heroku
+   + mongolab
+   + Silex(PHP), twig
+   + Bootstrap
+
 
 ## サッカーフォーメーション作成
 + URL:<http://mickey390.github.io/football_formation/>
