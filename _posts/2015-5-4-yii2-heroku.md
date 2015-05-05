@@ -1,3 +1,8 @@
+---
+layout: post
+title: yii2アプリをheroku上に作成する
+---
+
 
 yii2を試しで触ってみる用に、
 herokuにアプリを作成した時のメモです。
